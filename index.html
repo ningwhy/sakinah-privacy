@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakinah — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px 16px 64px;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+        h1 { font-size: 1.6rem; }
+        h2 { font-size: 1.2rem; margin-top: 2em; }
+        .updated { color: #666; font-size: 0.85rem; }
+        .badge {
+            display: inline-block; background: #e8f5e9; color: #2e7d32;
+            padding: 2px 10px; border-radius: 4px; font-size: 0.8rem; margin-bottom: 1em;
+        }
+        code { background: #f5f5f5; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<h1>Sakinah — Privacy Policy</h1>
+<p class="updated">Last updated: August 3, 2026</p>
+<span class="badge">Effective immediately</span>
+
+<p>
+    <strong>Sakinah</strong> ("we", "our", or "the App") is a Muslim companion application
+    providing prayer times, Qibla direction, Quran reading, Dua, Tasbih, and related Islamic tools.
+    This policy explains what data we collect, how we use it, and the choices you have.
+</p>
+
+<h2>1. Core Principle: Local-First</h2>
+<p>
+    Sakinah is designed with a <strong>local-first, privacy-first</strong> philosophy.
+    <ul>
+        <li>No account, no login, no sign-up required.</li>
+        <li>All your data — prayer logs, Tasbih counts, Quran bookmarks, cycle tracking, Zakat calculations —
+            is stored <strong>entirely on your device</strong> using local databases (Isar / SharedPreferences).</li>
+        <li>We do <strong>not</strong> upload your personal data to any server.</li>
+    </ul>
+</p>
+
+<h2>2. Data We Collect</h2>
+
+<h3>2.1 Location Data (Device-Only)</h3>
+<p>
+    Sakinah requests your device location <strong>only when the app is in use</strong> to calculate
+    accurate prayer times and Qibla direction. Location data is processed on-device and is
+    <strong>never transmitted</strong> to our servers.
+</p>
+
+<h3>2.2 Anonymous Usage Analytics (Firebase Analytics)</h3>
+<p>
+    We use <strong>Firebase Analytics</strong> to understand aggregate, anonymous usage patterns
+    (e.g., which features are most used, app crashes). Firebase collects an anonymous installation ID
+    and device model information. <strong>We do NOT use IDFA or track you across other apps or websites.</strong>
+    Firebase Analytics data is governed by
+    <a href="https://firebase.google.com/support/privacy">Google's Privacy Policy</a>.
+</p>
+
+<h3>2.3 Push Notification Token (Firebase Cloud Messaging)</h3>
+<p>
+    To deliver push notifications (e.g., Ramadan reminders, Eid greetings), we register a
+    Firebase Cloud Messaging (FCM) token on your device. This token is a random identifier
+    linked to your device, not to you personally.
+</p>
+
+<h3>2.4 Data You Enter</h3>
+<p>
+    Prayer check-in records, Tasbih counts, Quran reading progress, Hifz tracking, cycle/wellness
+    records, Zakat calculations, and sticker achievements — all stored locally on your device only.
+    Clearing app data or uninstalling permanently deletes this data.
+</p>
+
+<h2>3. Data We Do NOT Collect</h2>
+<ul>
+    <li><strong>No personal identity:</strong> We don't ask for your name, email, phone, or address.</li>
+    <li><strong>No account:</strong> No login, no registration, no password.</li>
+    <li><strong>No advertising ID:</strong> IDFA is disabled in our Firebase configuration.</li>
+    <li><strong>No cross-app tracking:</strong> We cannot and do not track you outside Sakinah.</li>
+    <li><strong>No data selling:</strong> We never sell or share data with third parties.</li>
+    <li><strong>No camera/microphone access for data collection:</strong> Microphone permission
+        is only requested by a dependent library and Sakinah does not use it directly.</li>
+</ul>
+
+<h2>4. Third-Party Services</h2>
+<table style="width:100%; border-collapse: collapse; margin: 1em 0;">
+    <tr style="text-align:left; border-bottom: 1px solid #ddd;">
+        <th style="padding: 8px;">Service</th>
+        <th style="padding: 8px;">Purpose</th>
+        <th style="padding: 8px;">Data Shared</th>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+        <td style="padding: 8px;">Firebase Analytics</td>
+        <td style="padding: 8px;">Anonymous usage statistics</td>
+        <td style="padding: 8px;">Anonymous installation ID, app events</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+        <td style="padding: 8px;">Firebase Cloud Messaging</td>
+        <td style="padding: 8px;">Push notifications</td>
+        <td style="padding: 8px;">FCM token (random device ID)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+        <td style="padding: 8px;">Al Quran Cloud API</td>
+        <td style="padding: 8px;">Quran text &amp; translations</td>
+        <td style="padding: 8px;">None (public API, no auth)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+        <td style="padding: 8px;">wttr.in / Open-Meteo</td>
+        <td style="padding: 8px;">Weather information</td>
+        <td style="padding: 8px;">Approximate coordinates (for weather lookup)</td>
+    </tr>
+    <tr>
+        <td style="padding: 8px;">BigDataCloud</td>
+        <td style="padding: 8px;">Reverse geocoding (city name)</td>
+        <td style="padding: 8px;">Approximate coordinates</td>
+    </tr>
+</table>
+
+<h2>5. In-App Purchases</h2>
+<p>
+    Sakinah VIP subscription is processed by Apple App Store / Google Play Billing.
+    We do not handle or store any payment information. Subscription management is handled
+    entirely by the platform stores.
+</p>
+
+<h2>6. Children's Privacy</h2>
+<p>
+    Sakinah includes a child mode with age-appropriate content (stickers, simplified Tasbih,
+    Asma learning). The App does not collect any personal information from children.
+    No behavioral advertising. No user-generated content. No external links in child mode.
+</p>
+
+<h2>7. Data Retention &amp; Deletion</h2>
+<p>
+    All user-entered data is stored only on your device. To permanently delete all data:
+</p>
+<ul>
+    <li><strong>Android:</strong> Settings → Apps → Sakinah → Clear Data, or uninstall.</li>
+    <li><strong>iOS:</strong> Settings → General → iPhone Storage → Sakinah → Delete App.</li>
+    <li>Within the app: Wellness page → "Clear all data" option permanently erases health records.</li>
+</ul>
+
+<h2>8. Permissions Used</h2>
+<ul>
+    <li><strong>Location (When In Use):</strong> Prayer times &amp; Qibla direction.</li>
+    <li><strong>Notifications:</strong> Prayer reminders, Tasbih reminders, Zakat reminders.</li>
+    <li><strong>Exact Alarm:</strong> Accurate Adhan alarm timing (Android).</li>
+    <li><strong>Biometric (Face ID/Touch ID):</strong> Optional privacy lock for wellness data.</li>
+    <li><strong>Background Fetch:</strong> Schedule local notifications.</li>
+    <li><strong>Vibration:</strong> Notification vibration (Android).</li>
+</ul>
+
+<h2>9. Your Rights</h2>
+<p>
+    Since we do not collect or store your personal data on our servers, most privacy rights
+    (GDPR, CCPA) are inherently satisfied. You have full control through your device settings.
+    To opt out of Firebase Analytics, you can disable "Usage Data" in the app settings or
+    reset the advertising identifier on your device.
+</p>
+
+<h2>10. Contact</h2>
+<p>
+    For privacy questions or concerns, contact: <code>privacy@sakinah.app</code>
+</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>
+    We may update this policy as the app evolves. Material changes will be reflected with an
+    updated date at the top of this page.
+</p>
+
+</body>
+</html>
